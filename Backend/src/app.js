@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
 	cors({
-		origin: "blog-website-frontend-liard.vercel.app",
+		origin: ["http://localhost:3100", "https://blog-website-frontend-liard.vercel.app"],
 		credentials: true,
 	})
 );
